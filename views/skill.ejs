@@ -1,0 +1,51 @@
+<%- include('./partials/header.ejs') %>
+
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-sm-2">
+                <%- include('./partials/sidebar.ejs', {page_name: 'Skill' }) %>
+            </div>
+
+            <div class="col-sm-10">
+
+                <!-- MAIN CONTENT -->
+                
+                <div class="container mt-5">
+                    <h1 class="text-warning mb-5 border-bottom">Skills</h1>
+                    <div class="row text-white">
+                        <div class="col-sm-5">
+                            <h3 class="mt-5">HTML</h3>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:100%;"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 offset-sm-2">
+                            <h3 class="mt-5">CSS</h3>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:70%;"
+                                    aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <h3 class="mt-5">JAVASCRIPT</h3>
+                            <div class="progress">
+                                 <div class="progress-bar bg-danger" role="progressbar" style="width:55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        </div>
+                        <div class="col-sm-5 offset-sm-2">
+                            <h3 class="mt-5">C++</h3>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width:10%;"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10%</div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+
+                <!--END CONTENT -->
+
+            </div>
+        </div>
+    </div>
+
+    <%- include('./partials/footer.ejs') %>

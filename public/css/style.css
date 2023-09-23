@@ -1,0 +1,39 @@
+/* FONTS  */
+.st-font {
+    font-family: 'Carter One', cursive;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+/* SERVICES ICON COLOR */
+.i-color{
+    color: chartreuse;
+}
+
+/* SERVICES SUBTITLE COLOR */
+.ss-color{
+    color: silver;
+}
+
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    color: black;
+    background-color: burlywood;
+}
+
+a.nav-link:active{
+    color: black;
+    background-color: rgb(158, 122, 75);
+    font-weight: bold;
+}
+
+
